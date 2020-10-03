@@ -1,0 +1,197 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkgray;
+}
+
+.header {
+    padding: 0px;
+}
+
+nav {
+    height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: darkcyan;
+    line-height: 50px;
+    position: fixed;
+    top: 0px;
+
+
+
+}
+
+.logo {
+    height: 30px;
+    line-height: 30px;
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+nav ul {
+    float: right;
+
+}
+
+nav ul li {
+    float: left;
+    margin: 3px;
+    width: 90px;
+    height: 30px;
+    color: ;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+nav ul li a {
+    color: lightblue;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+
+    height: 30px;
+    display: block;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-radius: 5px;
+}
+
+/*header section end*/
+
+.home {
+    min-height: 550px;
+    clear: both;
+    /*background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5));*/
+    background-image: url('img/bg_home.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: aliceblue;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+/*home section end*/
+.service {
+    min-height: 550px;
+    background-color: lightskyblue;
+}
+
+.head {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    padding: 10px 10px;
+    background-color: rgba(127, 255, 0, .7);
+}
+
+.service-body {
+    min-height: 500px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.box {
+
+    height: 300px;
+    margin: 20px;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+
+.box:hover {
+
+    box-shadow: 7px 3px 9px rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+
+}
+
+.box-icon {
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 100px;
+    font-size: 70px;
+    border: 1px dotted black;
+    border-radius: 100%;
+}
+
+.box-icon:hover {
+    transform: rotate(360deg);
+    transition: 1s;
+}
+
+.box-body {
+    text-align: center;
+}
+
+/*services section end*/
+
+.portfolio {
+    min-height: 550px;
+    background-image: url("/img/portfolio.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+/*portfolio section end*/
+
+.about {
+    min-height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/img/about-bg.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.text {
+
+    min-height: 480px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.title{
+    height: 30px;
+    font-weight: 900;
+    border-left: 2px solid yellow;
+    text-transform: uppercase;
+    padding-left: 3px;
+    color: aliceblue;
+    line-height: 30px;
+}
+
+.image {
+    min-height: 480px;
+    
+}
+
+/*about section end*/
+
